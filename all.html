@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<style>
+		#nav{
+		width:200px;
+		height: 20px;
+		margin-left: 320px;
+		background-image: url("images/topbg.jpg")
+	}
+		.nav a{
+			font-style: normal;
+			font-size: 25px;
+			font-family: "微软雅黑";
+		}
+		#index{
+		background-image:url("images/1.jpg");
+	}
+	.normal:hover{
+		background-image: url("images/1.jpg");
+	}
+		#wrapper{
+			margin-top: 20px;
+			height: 750px;
+			color: #FFF;
+		}
+		.main{
+			position: relative;
+			width: 1000px;
+			height: 500px;
+			margin: 0 auto;
+			background-image: url("images/222.jpg");
+		}
+		.left,.right{
+			position: absolute;
+			width:55px;
+			height:70px;
+			background-image: url("images/pic3.png");
+		}
+		.left{
+			left: 5px;
+			top: 275px;
+			background-position: 0px -80px;
+		}
+		.right{
+			right: 5px;
+			top: 275px;
+			background-position: 0px -153px;
+		}
+		.left:hover,.right:hover{
+			background-color: rgba(122,120,218,0.87);
+		}
+		.bottom{
+			position: absolute;
+			left: 70px;
+			bottom: -75px;
+			
+			width: 800px;
+			height: 90px;
+			padding: 30px;
+			background-color: rgba(9,12,35,0.90);
+		}
+		.bottom h2{
+			float: left;
+			width: 270px;
+			height:60px;
+			padding: 10px 20px 10px 0;
+			border-right: 1px solid #FFF;
+			font-family: "微软雅黑";
+			font-weight:normal;
+			font-size: 20px;
+		}
+		.bottom p{
+			float: left;
+			width:480px;
+			height:60px;
+			padding: 10px 0 10px 20px;
+			font-size: 15px;
+		}
+		.foot{
+			position: absolute;
+			left:475px;
+			bottom: -100px;
+			width:50px;
+			margin-bottom: -100px;
+		}
+		.dot1,.dot2{
+			float: left;
+			width: 9px;
+			height: 10px;
+			background-image: url("images/pic3.png");
+		}
+		.dot1{
+			background-position: -44px 0px;
+		}
+		.dot2{
+			background-position: -35px 0px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="nav">
+	<a href="#"id="index">首页</a>
+	<a href="#"class="normal">搜索</a>
+	<a href="#"class="normal">分类</a>
+	<a href="#"class="normal">排行</a>
+	<a href="#"class="normal">最新</a>
+	</div>
+	<div id="wrapper">
+		<div class="title">
+			<div class="title-img"></div>
+		</div>
+		<div class="main">
+			<a href="#"><div class="left"></div></a>
+			<a href="#"><div class="right"></div></a>
+			<div class="bottom">
+<h2>橘晶和近藤之间的故事，如同名字一样，既 恋如雨 止，又 恋如雨止</h2>
+<p>一边是45岁离了婚带着儿子平淡生活，另一边是17岁少女受伤放弃曾经拥有。
+一个挂念着小说的创作，一个挂念着田径的理想。
+方方面面的不可抗因素使得他们彼此只能可远观，而不可及。
+两人之间的感情，可能既是爱慕也是真爱。
+可惜了这份感情，两人彼此好像失去了什么，但也多亏了这份感情，他们曾经的理想重新拾回。</p>
+			</div>
+			<div class="foot">
+				<a href="#"><div class="dot1"></div></a>
+				<a href="#"><div class="dot2"></div></a>
+				<a href="#"><div class="dot2"></div></a>
+				<a href="#"><div class="dot2"></div></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
