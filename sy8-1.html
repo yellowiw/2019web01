@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form yellow</title>
+	<style>
+		.all{
+			width: 450px;
+			height: 420px;
+			border: 1px solid #040303;
+			background:#3443D2;
+		}
+		.fieldset{
+			width: 400px;
+			height: 100px;
+		}
+		.bottom{
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="all">
+		<form action="#" method="" name="form">
+		<caption>增加快递信息</caption>
+		
+	<div class="first">
+		<fieldset style="width: 400px;">
+		<legend>发货单</legend>
+			<table>
+				<tr>
+					<th><label>发货人：</label></th>
+					<th><input type="text" name="" style="width: 120px;"></th>
+					<th><label>地址：</label></th>
+					<th><input type="text" name="" style="width: 120px;" ></th>
+				</tr>
+				<tr>
+					<th><label>电话：</label></th>
+					<th><input type="text" name=""style="width:120px;"></th>
+					<th><label>邮编：</label></th>
+					<th><input type="text" name=""style="width:120px;"></th>
+				</tr>
+			</table>
+	</fieldset>
+	</div>
+		
+	<fieldset style="width: 400px;">
+		<legend>收货单</legend>
+			<table>
+				<tr>
+					<th><label>收货人：</label></th>
+					<th><input type="text" name="" style="width: 120px;"></th>
+					<th><label>地址：</label></th>
+					<th><input type="text" name="" style="width: 120px;" ></th>
+				</tr>
+				<tr>
+					<th><label>电话：</label></th>
+					<th><input type="text" name=""style="width:120px;"></th>
+					<th><label>邮编：</label></th>
+					<th><input type="text" name=""style="width:120px;"></th>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th><label>地区：</label></th>
+					<th>
+						<select style="width: 120px;">
+							<option>北京</option>
+							<option>上海</option>
+							<option>重庆</option>
+							<option>香港</option>
+						</select>
+					</th>
+				</tr>
+			
+				<tr>
+					<th><label>包装：</label></th>
+					<th><input type="checkbox" name="" >纸箱
+						<input type="checkbox" name="">木箱
+						<input type="checkbox" name="">快递袋
+						<input type="checkbox" name="">其他
+					</th>
+				</tr>
+			
+				<tr>
+					<th><label>付款方式：</label></th>
+					<th><input type="checkbox" name="" >现金
+						<input type="checkbox" name="">支付宝
+						<input type="checkbox" name="">网银
+						<input type="checkbox" name="">ATM
+					</th>
+				</tr>
+			</table>
+	</fieldset>
+
+	<fieldset style="width: 400px;">
+		<legend>货物信息</legend>
+			<table>
+				<tr>
+					<th><label>货物名称：</label></th>
+					<th><input type="text" name="" style="width: 250px;"></th>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th><label>数量：</label></th>
+					<th><input type="text" name="" style="width: 50px;"></th>
+					<th><label>重量：</label></th>
+					<th><input type="text" name="" style="width: 50px;"></th>
+					<th><label>发货时间：</label></th>
+					<th><input type="text" name="" style="width: 50px;"></th>
+				</tr>
+			</table>
+	</fieldset>
+	</form>
+	<div class="bottom">
+		<input type="submit" name="yes" value="确定">
+		<input type="reset" name="no" value="取消">		
+	</div>
+	</div>
+</body>
+</html>
