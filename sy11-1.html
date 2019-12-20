@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>from yellow</title>
+		<style>
+			.all{
+				width: auto;
+				height: 600px;
+				background-color:#5F59D2;
+				font-size: 50px;
+				color:#FFFFFF;
+			}
+			#wrap1,#wrap2{
+				width: 500px;
+				height: 100px;
+				background-color:#9D7FF9;
+				position: absolute;
+				text-align: center;
+			}
+			#wrap1{
+				left: 500px;
+			}
+			#wrap2{
+				left: 500px;
+				top: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="all">
+			<div id="wrap1">我是wrap1</div>
+			<div id="wrap2">我是wrap2</div>
+		</div>
+		<script>
+			let oWrap1=document.getElementById("wrap1"),
+				oWrap2=document.getElementById("wrap2");
+				oWrap1.onmouseenter=function(){
+					oWrap2.innerHTML="鼠标移入了wrap1";
+				}
+				oWrap1.onmouseleave=function(){
+					oWrap2.innerHTML="鼠标离开了wrap1";
+				}
+				oWrap2.onmouseenter=function(){
+					oWrap1.
+					
+					
+					innerHTML="鼠标移入了wrap2";
+				}
+				oWrap2.onmouseleave=function(){
+					oWrap1.innerHTML="鼠标离开了wrap2";
+				}
+		</script>
+	</body>
+</html>
